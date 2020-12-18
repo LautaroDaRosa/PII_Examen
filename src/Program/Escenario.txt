@@ -1,0 +1,2 @@
+3,orco,3,demonio,3,enano,3,mago,3,fantasma,4,paladin,5,esqueleto
+1,dragon,1,enano,1,elfo

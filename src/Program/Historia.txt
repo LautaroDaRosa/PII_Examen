@@ -1,0 +1,23 @@
+Comienza la batalla!
+Mago 0 ha derrotado a Orco 0
+Mago 0 ha derrotado a Orco 1
+Mago 0 ha derrotado a Orco 2
+Mago 0 ha derrotado a Demonio 0
+Mago 0 ha derrotado a Demonio 1
+Mago 0 ha derrotado a Demonio 2
+Mago 0 ha derrotado a Fantasma 0
+Mago 0 ha derrotado a Fantasma 1
+Mago 0 ha derrotado a Fantasma 2
+Mago 1 ha derrotado a Esqueleto 0
+Mago 1 ha derrotado a Esqueleto 1
+Mago 1 ha derrotado a Esqueleto 2
+Mago 1 ha derrotado a Esqueleto 3
+Mago 1 ha derrotado a Esqueleto 4
+Finaliza la batalla.
+Los Heroes se han hecho con el control de la Tierra Media!
+
+Comienza la batalla!
+Elfo 0 ha derrotado a Dragon 0
+Finaliza la batalla.
+Los Heroes se han hecho con el control de la Tierra Media!
+

@@ -1,1 +1,13 @@
 # PII_Examen
+
+Este es mi proyecto de entrega para el éxamen de Programación 2
+En cuanto a las consideraciones decidí romper el patrón ISP en las clases que implementan la interfaz "IItems" y
+en aquellas que implementan la interfaz "IHechizo" ya que son forzadas a poseer operaciones y atributos que no utilizan, lo hice ya que me pareció una manera mucho más fácil de cumplir con el problema y también para evitar la confusión que podría generar aplicar este patrón en este punto ya que al abarcar tantas clases y atributos se tendrían que añadir muchas variaciones a métodos ya implementados para poder cumplir con el patrón.
+De esta manera también se cumple el patrón de Polimorfismo, ya que estas operaciones son polimórficas por ser implementadas por múltiples objetos de distintas clases.
+Tomé en consideración que las "Gemas elementales" de la Espada Oscura comenzaría siendo una sola y que el ataque de la espada sería 5 veces la cantidad de gemas que tuviese.
+En el libro de Hechizos el ataque, defensa y curación de todos los hechizos juntos conforman el total de estos atributos para el libro mismo.
+En cuanto a los items compuestos, todos los personajes pueden componer cualquier 2 items y el nuevo item pasará a ser una instancia de la clase "item compuesto" la cual implementa la interfaz "IItems", de esta manera me pareció más simple que especificar cuáles son los items compuestos y qué items los componen.
+Decidí que cada personaje llevara su registro personal dependiendo si era héroe, villano o mago, aunque todos dependen de la torre que actúa como Observable y envía la información a cada personaje, este registro no se muestra por consola ya que la letra no lo requería.
+Cada línea del archivo "Escenario.txt" representa un encuentro, en la misma se especifican que criaturas participarán del mismo y la cantidad de personajes que tendrá. Aunque por ejecución puede haber múltiples batallas tan sólo habrá un escenario.
+Aunque la letra no lo especificaba, para ayudar a comprender el código y el funcionamiento se imprime por consola cada ataque para tener en cuenta los distintos personajes que toman parte de la batalla y poder ver qué daño realizan con cada ataque y que tanto debilitan al enemigo.
+Y finalmente, decidí utilizar un archivo .txt para recibir los datos de cada batalla, me pareció la forma más fácil de implementarlo pero también posee las abstracciones necesarias para extender el código facilmente en caso de querer recibir los datos desde una fuente distinta.
